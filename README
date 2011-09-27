@@ -1,1 +1,21 @@
 = FBM workover
+
+install the 1.9.3 ruby from http://rubyinstaller.org/downloads/
+gem install bundler
+
+# install the latest staticmatic2
+cd <somedir>
+git clone https://github.com/mindeavor/staticmatic2.git
+cd staticmatic2
+gem build staticmatic2.gemspec
+gem install staticmatic2-2.1.0.gem
+
+# now get fbm
+cd <somedir>
+mkdir fbm
+cd fbm
+git clone git@github.com:mikemee/fbm.git  (e.g. via windows utility)
+cd fbmweb
+staticmatic preview
+
+# now you can open a browser at localhost:4000
