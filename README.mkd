@@ -12,6 +12,12 @@ Install the 1.9.3 ruby from http://rubyinstaller.org/downloads/ (windows)
 install the latest staticmatic2
 -------------------------------
 
+The author fixed the problem I had. Apparently you can now just do:
+
+    git install staticmatic2
+
+but, just in case, here is how I did it:
+
     cd <somedir>
     git clone https://github.com/mindeavor/staticmatic2.git
     cd staticmatic2
