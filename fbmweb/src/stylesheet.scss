@@ -1,0 +1,40 @@
+/* fbm styles */
+
+$family: Helvetica;
+$darkbg: #333333;
+
+h1 {
+  color: #333333;
+  font: {
+    family: $family;
+    weight: bold;
+    size: 30pt;
+  }
+}
+
+h2 {
+  color: #333333;
+  font: {
+    family: $family;
+    weight: bold;
+    size: 24pt;
+  }
+}
+
+body, p, div {
+  font-family: $family;
+}
+
+.footer {
+  background: $darkbg;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12pt;
+}
+
+.topbar {
+  background: $darkbg;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18pt;
+}
